@@ -1,3 +1,4 @@
+
 # dyavolmgn_microservices
 dyavolmgn microservices repository
 ### Docker-2
@@ -6,10 +7,10 @@ dyavolmgn microservices repository
 gcloud init
 gcloud auth
 ```
-install [Docker Machine]
-Create docker host
-Create docker image
-docker push image
+ - install [Docker Machine]
+ - Create docker host
+ - Create docker image
+ - docker push image
 
 
 
