@@ -1,0 +1,14 @@
+docker images
+
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+kbabushkin/ubuntu-tmp-file   latest              47e0df235e56        10 seconds ago      116MB
+ubuntu                       16.04               a51debf7e1eb        2 weeks ago         116MB
+hello-world                  latest              4ab4c602aa5e        3 months ago        1.84kB
+
+Задание со *
+
+docker inspect <u_container_id>
+вывод инфы о контейнере + инфа о образе
+
+docker inspect <u_image_id>
+вывод инфы о образе
