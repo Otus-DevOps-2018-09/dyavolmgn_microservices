@@ -7,18 +7,26 @@ build_job:
   stage: build
   script:
     - echo 'Building'
+  tags:
+    - docker
 
 test_unit_job:
   stage: test
   script:
     - echo 'Testing 1'
+  tags:
+    - docker
 
 test_integration_job:
   stage: test
   script:
     - echo 'Testing 2'
+  tags:
+    - docker
 
 deploy_job:
   stage: deploy
   script:
     - echo 'Deploy'
+  tags:
+    - docker
