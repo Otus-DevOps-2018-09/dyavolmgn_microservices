@@ -1,6 +1,14 @@
 
 # dyavolmgn_microservices
 dyavolmgn microservices repository
+---
+
+### gitlab-ci-1
+---
+## Задания:
+ - deploy GitLab
+ - creat files gitlab-ci, add runner, пуш в удаленный  репозиторий
+
 
 ### Docker-3
 ---
