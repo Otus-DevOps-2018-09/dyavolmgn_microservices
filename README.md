@@ -3,6 +3,12 @@
 dyavolmgn microservices repository
 ---
 
+### monitoring-1
+---
+## Задания:
+https://hub.docker.com/u/dyavolmgn
+
+
 ### gitlab-ci-1
 ---
 ## Задания:
