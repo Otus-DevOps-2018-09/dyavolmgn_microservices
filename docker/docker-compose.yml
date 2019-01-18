@@ -11,20 +11,20 @@ services:
           - comment_db
 
   ui:
-    image: ${USER_NAME}/ui:${UI_VERSION}
+    image: ${USERNAME}/ui:${UI_VERSION}
     ports:
       - ${REDDIT_PORT}:9292/tcp
     networks:
       - front_net
 
   post:
-    image: ${USER_NAME}/post:${POST_VERSION}
+    image: ${USERNAME}/post:${POST_VERSION}
     networks:
       - front_net
       - back_net
 
   comment:
-    image: ${USER_NAME}/comment:${COMMENT_VERSION}
+    image: ${USERNAME}/comment:${COMMENT_VERSION}
     networks:
       - front_net
       - back_net
