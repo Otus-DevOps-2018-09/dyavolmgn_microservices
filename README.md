@@ -3,6 +3,16 @@
 dyavolmgn microservices repository
 ---
 
+### monitoring-2
+---
+## Задания:
+add Grafana, alertmanagers,
+cread graf in grafana
+
+https://hub.docker.com/u/dyavolmgn
+
+---
+
 ### monitoring-1
 ---
 ## Задания:
