@@ -3,6 +3,12 @@
 dyavolmgn microservices repository
 ---
 
+### logging-1
+---
+## Задания:
+Cread docker-compose-logging.yml
+add fluentd, elasticsearch, kibana, zipkin
+
 ### monitoring-2
 ---
 ## Задания:
