@@ -3,6 +3,13 @@
 dyavolmgn microservices repository
 ---
 
+### kubernetes-1
+---
+ - Основное ДЗ
+
+https://github.com/kelseyhightower/kubernetes-the-hard-way
+
+
 ### logging-1
 ---
 ## Задания:
