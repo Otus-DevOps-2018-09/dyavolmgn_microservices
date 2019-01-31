@@ -1,8 +1,10 @@
 FROM python:3.6.0-alpine
+RUN apk update && apk add python3 gcc musl-dev python3-dev
 
 WORKDIR /app
 ADD . /app
 
+RUN pip install --upgrade pip
 RUN pip install -r /app/requirements.txt
 
 ENV POST_DATABASE_HOST post_db
