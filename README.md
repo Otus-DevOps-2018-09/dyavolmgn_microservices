@@ -3,6 +3,12 @@
 dyavolmgn microservices repository
 ---
 
+### kubernetes-2
+---
+ - Основное ДЗ:
+	* minikub
+	* gke_kub
+
 ### kubernetes-1
 ---
  - Основное ДЗ
