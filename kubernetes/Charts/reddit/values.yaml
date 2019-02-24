@@ -1,0 +1,20 @@
+comment:
+  image:
+    repository: dyavolmgn/comment
+    tag: latest
+  service:
+    externalPort: 9292
+
+post:
+  image:
+    repository: dyavolmgn/post
+    tag: latest
+    service:
+      externalPort: 5000
+
+ui:
+  image:
+    repository: dyavolmgn/ui
+    tag: latest
+    service:
+      externalPort: 9292
